@@ -1,0 +1,29 @@
+.menu{
+    display: flex;
+    margin-top: 60px;
+    z-index: 1;
+    align-items: stretch;
+    .menu-bar{
+        height: 100%;
+        background-color: #fff;
+        .ant-menu-item{
+            margin: 10px 0;
+            height: 50px;
+            line-height: 50px;
+            i{
+                color: #23235f;
+                font-size: 20px;
+            }
+
+            &.ant-menu-item-selected{
+                background-color: #fff;
+                border-left: 4px solid #23235f;
+            }
+        }
+    }
+    .content{
+        flex-grow: 1;
+        height: 100%;
+        background-color: #f2f2f2;
+    }
+}

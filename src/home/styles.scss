@@ -1,0 +1,169 @@
+.home{
+    padding: 25px;
+    .tabs{
+        width: 100%;
+        position: relative;
+        .border-btn{
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 0px;
+            border-color: #23235f;
+            color: #23235f;
+            background-color: #f2f2f2;
+        }
+        .ant-tabs-bar{
+            margin-bottom: 0px;
+        }
+        .ant-select{
+            width: 100%;
+            .ant-select-selection{
+                &:hover{
+                    border-color: #23235f;
+                }
+                &:focus{
+                    border-color: #23235f;
+                    box-shadow: none;
+                }
+            }
+        }
+        .ant-tabs-tab-active{
+            color: #23235f;
+        }
+        .ant-tabs-ink-bar{
+            background-color: #23235f;
+        }
+
+        .ant-row{
+            .ant-col{
+                .col-content{
+                    background-color: #fff;
+                    padding: 15px;
+                    margin:2px;
+                    .button{
+                        text-align: center;
+                        .primary-btn{
+                            border-color: #23235f;
+                            background-color: #23235f;
+                            color: #fff;
+                            margin-top: 20px;
+                            border-radius: 0px;
+                            width: 100%;
+                        }
+                    }
+                    
+
+                    .dropdown{
+                        margin-bottom: 10px;
+                        p{
+                            margin-bottom: 5px;
+                        }
+                        .ant-btn{
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-size: 14px;
+                            &:hover{
+                                color: #23235f;
+                                border-color: #23235f;
+                            }
+                            &:focus{
+                                box-shadow: none;
+                                color: #23235f;
+                                border-color: #23235f;
+                            }
+                        }
+                    }
+
+                    .total-startup{
+
+                    }
+                    .display-startup{
+                        background-color: #f2f2f2;
+                        .startup{
+                            background-color: #fff;
+                            padding: 15px;
+                            margin: 7px;
+                            p{
+                                margin-bottom: 0px;
+                            }
+                            .flex{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                .about{
+                                    display: flex;
+                                    .logo{
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;
+                                        overflow: hidden;
+                                        img{
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                    .details{
+                                        margin-left: 10px;
+                                        .name{
+                                            font-weight: bold;
+                                            font-size: 15px;
+                                        }
+                                        .founded{
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                                .status{
+                                    color: #b8b8b8;
+                                    font-size: 12px;
+                                }
+                                .rating{
+                                    font-size: 12px;
+                                    span{
+                                        font-weight: bold;
+                                        font-size: 14px;
+                                    }
+                                }
+                                .chief{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: flex-end;
+                                    font-size: 12px;
+                                    text-align: right;
+                                    line-height: 15px;
+                                    .chief-name{
+                                        font-size: 14px;
+                                    }
+                                    .chief-image{
+                                        margin-left: 5px;
+                                        width: 30px;
+                                        height: 30px;
+                                        border-radius: 50%;
+                                        overflow: hidden;
+                                        img{
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+
+                            }
+                            .description{
+                                margin : 25px 0;
+                                .heading{
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                }
+                                .summary{
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
